@@ -1,5 +1,3 @@
-Certainly! Here's the README content in Markdown format:
-
 # Soccer Simulation Environment Setup
 
 This script automates the setup process for a soccer simulation environment. It installs the necessary dependencies and clones repositories for the RCSSServer, SoccerWindow2, and librcsc.
@@ -15,7 +13,7 @@ Make sure you have administrative privileges to run sudo commands.
 3. Execute the script by running the following command:
 
 ```bash
-./install.sh
+sudo ./install.sh
 ```
 
 ## Steps Performed by the Script
