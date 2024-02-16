@@ -43,7 +43,7 @@ cd ..
 cd soccerwindow2
 ./bootstrap
 ./configure
-make -j8
+make
 sudo make install
 
 echo "include /usr/local/lib" | sudo tee -a /etc/ld.so.conf
