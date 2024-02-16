@@ -13,7 +13,8 @@ Make sure you have administrative privileges to run sudo commands.
 3. Execute the script by running the following command:
 
 ```bash
-sudo ./install.sh
+chmod 777 install.sh
+./install.sh
 ```
 
 ## Steps Performed by the Script
