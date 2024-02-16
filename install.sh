@@ -39,8 +39,6 @@ make -j8
 sudo make install
 cd ..
 
-echo "include /usr/local/lib" | sudo tee -a /etc/ld.so.conf
-sudo ldconfig
 
 
 cd soccerwindow2
@@ -50,4 +48,5 @@ make
 sudo make install
 
 
-
+echo "include /usr/local/lib" | sudo tee -a /etc/ld.so.conf
+sudo ldconfig
